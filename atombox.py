@@ -54,14 +54,12 @@ class Ball:
 
 
         def reduzPra1(n):
-            if(n > 0):
-                n = 0
-            elif(n < 0):
-                n = -1
-            else:
-                n = 0
+            If n < 0:
+                return -(4 * epsilon * (((sigma/10**10) ** 12 / (distancia/10**10) ** 13) * 12 - ((sigma/10**10) ** 6 / (distancia/10**10) ** 7) * 6))
 
-            return (4 * epsilon * (((sigma/10**10) ** 12 / (distancia/10**10) ** 13) * 12 - ((sigma/10**10) ** 6 / (distancia/10**10) ** 7) * 6))*n
+            Return 0
+
+            
 
 
 
