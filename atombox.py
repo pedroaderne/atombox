@@ -59,11 +59,6 @@ class Ball:
 
             Return 0
 
-            
-
-
-
-
 
         if distancia < 2**(1/6)*sigma:
             Pot_LJ = 4 * epsilon * ((sigma / distancia) ** 12 - (sigma / distancia) ** 6)  # Fórmula para o potencial
